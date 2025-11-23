@@ -1,0 +1,175 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0px -10px 10px -5px rgba(0, 0, 0, 0.1);
+  font-family: Roboto, sans-serif;
+  gap: 9.5rem;
+  padding: 3.75rem 5.25rem;
+
+  h4 {
+    color: #2d2d2d;
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    h4 {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+    }
+
+    li {
+      list-style: none;
+
+      a {
+        margin: 0;
+        text-decoration: none;
+        font-size: 1.25rem;
+        font-weight: 300;
+        color: #2d2d2d;
+
+        transition: all 0.3s ease;
+        display: inline-block;
+
+        &:hover {
+          text-decoration: underline;
+          transform: translateX(5px);
+        }
+      }
+    }
+  }
+
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+
+    .icons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      max-width: 20rem;
+
+      img {
+        transition: transform 0.3s ease;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.1) translateY(-3px);
+        }
+      }
+    }
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      margin-bottom: 1rem;
+    }
+    .icons {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.15) rotate(5deg);
+        }
+
+        img {
+          width: 2.5rem;
+          height: 2.5rem;
+          transition: all 0.3s ease;
+        }
+
+        &:hover img {
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    flex-wrap: wrap;
+    gap: 3rem 6rem;
+    padding: 3rem 2rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .links {
+      flex: 0 0 auto;
+      min-width: 200px;
+    }
+
+    .payment-methods {
+      flex: 0 0 auto;
+      min-width: 250px;
+    }
+
+    .social-media {
+      flex: 0 0 100%;
+      margin-top: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2.5rem 1.5rem;
+    align-items: flex-start;
+
+    h4 {
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+    }
+
+    .links {
+      width: 100%;
+
+      li a {
+        font-size: 0.813rem;
+      }
+    }
+
+    .payment-methods {
+      width: 100%;
+
+      .icons img {
+        height: 1.75rem;
+      }
+    }
+
+    .social-media {
+      width: 100%;
+
+      .icons a img {
+        width: 2.25rem;
+        height: 2.25rem;
+      }
+    }
+  }
+}
