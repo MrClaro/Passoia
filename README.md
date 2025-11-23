@@ -1,16 +1,69 @@
-# React + Vite
+# Passoia Makeup — Desafio Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto React para o desafio Passoia Makeup: construir uma página web responsiva e interativa que ajude os clientes a escolherem o tom ideal de maquiagem testando produtos virtualmente em diferentes tons de pele.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o projeto
 
-## React Compiler
+A Passoia é uma loja de maquiagem que busca reduzir devoluções e aumentar a confiança do cliente oferecendo testes visuais mais realistas. Este projeto propõe uma solução de experiência interativa.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Demo online (Vercel): [Passoia](https://passoia-gamma.vercel.app)
+
+---
+
+## Tecnologias
+
+- React
+- SCSS 
+- HTML5
+- Ferramentas de build / deploy: Vercel
+
+---
+
+## Requisitos técnicos atendidos
+
+- Desenvolvido em React
+- Responsivo
+- Repositório público no GitHub
+- Deploy online
+
+---
+
+## Como rodar localmente
+
+1. Clone o repositório
+   ```bash
+   git clone https://github.com/MrClaro/Passoia
+   cd Passoia
+   ```
+
+2. Instale dependências
+   ```bash
+   npm install
+   ```
+
+3. Rode em modo de desenvolvimento
+   ```bash
+   npm run dev
+   # ou
+   npm start
+   ```
+
+4. Abra no navegador
+   - Normalmente em http://localhost:5173 ou conforme o terminal indicar
+
+---
+
+## Como contribuir
+
+- Abra uma issue descrevendo a sugestão ou bug.
+- Crie uma branch com nome descritivo: `feature/nome-da-funcionalidade` ou `fix/descricao`.
+- Abra um Pull Request com descrição clara e screenshots se aplicável.
+- Execute os testes e lint antes de submeter.
+
+--
